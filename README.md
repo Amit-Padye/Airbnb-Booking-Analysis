@@ -1,4 +1,4 @@
-Airbnb Data Analysis-
+**Airbnb Data Analysis-
 
 Since 2008, guests and hosts have used Airbnb to expand on traveling possibilities and present a more unique, personalized way of experiencing the world. Today, Airbnb became one of a kind service that is used and recognized by the whole world. Data analysis on millions of listings provided through Airbnb is a crucial factor for the company. These millions of listings generate a lot of data - data that can be analyzed and used for security, business decisions, understanding of customers' and providers' (hosts) behavior and performance on the platform, guiding marketing initiatives, implementation of innovative additional services and much more.
 
@@ -38,7 +38,7 @@ availability_365- Number of days each property is available out of 365 days of t
 Assumptions-
 We have ignored the null values and kept them as it is as for last_review column,and for number of reviews we have taken it as 0 -null values are present in only two columns, number of review columns and last_review -null values does not affect our code here much. We have taken the customer_review columns to gain the idea about number of customers ,considering similar customer behavior for reviews accross all region.
 
-###Pyhton libraries used- Numpy ,Pandas ,Matplotlib,Seaborn
+***Pyhton libraries used- Numpy ,Pandas ,Matplotlib,Seaborn
 
 Hidden trends and pattern Found
 --Comparasion of number of property in each neighbourhood group
