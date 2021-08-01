@@ -4,7 +4,7 @@ Since 2008, guests and hosts have used Airbnb to expand on traveling possibiliti
 
 Coding Language used-- Pyhton version 3.0 Platform used - Google collab notebooks
 
-Data provided-
+# Data provided-
 Id- Unique Id of each property
 
 name- Name of properties, which also describes the property
@@ -40,7 +40,7 @@ We have ignored the null values and kept them as it is as for last_review column
 
 ***Pyhton libraries used- Numpy ,Pandas ,Matplotlib,Seaborn
 
-Hidden trends and pattern Found
+# Hidden trends and pattern Found
 --Comparasion of number of property in each neighbourhood group
 
 property_count=df['neighbourhood_group'].value_counts().reset_index().
@@ -63,7 +63,7 @@ review=df.groupby('neighbourhood_group')['number_of_reviews'].sum().reset_index(
 
 --Count of properties availabel in different price range in each neighboorhood.
 
-future suggestion and ideas
+# future suggestion and ideas
 --Identify High Demand areas where AIRBNB should increase supply.
 
 --Marketing + Discounts (People can travel extra to stay here).
